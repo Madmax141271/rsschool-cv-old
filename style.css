@@ -1,0 +1,114 @@
+
+
+.sidepanel {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    z-index: 3;
+}
+.sidepanel__text {
+    height: 150px;
+    width: 25px;
+      
+}
+.sidepanel__text span {
+    transform: rotate(-90deg) translate(-40%,-330%);
+    display: block;
+    width: 150px;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+.header {
+    max-height: 200px;
+    display: flex;
+    background-color: white;
+    background-size: 100%;
+    display: flex;
+}
+.header_img{
+    margin: 20px 50px;
+    size: 100%;
+}
+
+h1 {
+    margin-left: 50px;
+}
+h2 {
+    margin: 20px 50px;
+}
+h3 {
+    margin: 60px -240px;
+}
+.wrapper {
+    display: flex;
+    margin-left: 50px;
+}
+
+.contacts {
+    background-color: rgba(132, 162, 190, 0.7);
+}
+.aboutme {
+    background-color: #f5f0f5;
+}
+.aboutme_info {
+    margin: 20px 100px;
+}
+.skills {
+    background-color: rgba(132, 162, 190, 0.7);
+}
+.skills_list {
+    margin-left: 150px;
+}
+
+.example  {
+    background-color: #f5f0f5;
+}
+pre {
+    margin-left: -70px;
+    margin-top: 20px;
+    width: 600px;
+    font-family: monospace;
+    font-size: 0.9rem;  
+}
+
+.example_code { 
+    margin-left: 50px;
+}
+
+.courses{
+    background-color: rgba(132, 162, 190, 0.7);
+}
+.courses_list {
+    margin-left: 150px;
+}
+.lang {
+    background-color: #f5f0f5;
+}
+.lang_info {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+footer {
+    background-color: rgba(132, 162, 190, 0.7);
+}
+.footer_rsschoolimg {
+    margin-top: 16px;
+    margin-left: 290px;
+    width: 75px;
+    height: 25px;
+}
+.footer_githubimg {
+    margin-top: 16px;
+    width: 75px;
+    height: 25px;
+}
+p {
+    margin-left: 290px;
+}
+
+
